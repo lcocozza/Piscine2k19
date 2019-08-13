@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+char	*ft_strstr(char *str, char *to_find);
+
+int main()
+{
+	printf("%s\n", ft_strstr("chaine a chercher de [hrase mon cu;]", " a"));
+	return 0;
+}
